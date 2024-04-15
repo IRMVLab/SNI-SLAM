@@ -1,8 +1,10 @@
 # SNI-SLAM: Semantic Neural Implicit SLAM
 Siting Zhu*, Guangming Wang*, Hermann Blum, Jiuming Liu, Liang Song, Marc Pollefeys, Hesheng Wang
 <div align="center">
-  <h3>CVPR 2024 [<a href="https://arxiv.org/pdf/2311.11016.pdf">Paper</a>]</h3>
+  <h3>CVPR 2024 [<a href="https://arxiv.org/pdf/2311.11016.pdf">Paper</a>] [<a href="https://drive.google.com/file/d/1oRKoly8cxple0Z3CcgbBvC_8wYQhOtR3/view?usp=drive_link">Suppl</a>]</h3>
 </div>
+
+
 
 ## Demo
 
