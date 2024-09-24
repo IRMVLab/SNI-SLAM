@@ -381,7 +381,7 @@ class Mapper(object):
             optimizer.step()
 
             if self.verbose:
-                end_time = time.time()  # 记录结束时间
+                end_time = time.time()
                 print(f"mapping: {(end_time - start_time)*1000} ms")
 
             if self.enable_wandb:
@@ -471,7 +471,7 @@ class Mapper(object):
             with torch.no_grad():
                 frame_rgb = gt_color.permute(2, 0, 1).unsqueeze(0).to(self.device)  # net_rgb:[1,16,680,1200]
                 self.model_manager.set_mode_feature()
-                sem_feat = self.model_manager.cnn(frame_rgb)  # 占用49MB
+                sem_feat = self.model_manager.cnn(frame_rgb)
 
                 if self.use_gt_semantic:
                     gt_sem_label = gt_semantic

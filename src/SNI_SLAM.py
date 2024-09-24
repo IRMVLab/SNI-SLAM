@@ -184,7 +184,7 @@ class SNI_SLAM():
 
 
         c_dim = cfg['model']['c_dim']
-        print("c_dim", c_dim)
+        # print("c_dim", c_dim)
         xyz_len = self.bound[:, 1]-self.bound[:, 0]
 
         ####### Initializing Planes ############

@@ -26,7 +26,7 @@ conda activate sni
 
 ## Run
 ### Replica
-1. Download the data with semantic annotations in [google drive](https://drive.google.com/drive/u/0/folders/1BCu8bCGKG9HmnLFbyx7DIHI0slgkeo4h) and save the data into the `./data/replica` folder.
+1. Download the data with semantic annotations in [google drive](https://drive.google.com/drive/u/0/folders/1BCu8bCGKG9HmnLFbyx7DIHI0slgkeo4h) and save the data into the `./data/replica` folder. We only provide a subset of Replica dataset. For all Replica data generation, please refer to directory `data_generation`. 
 2. Download the pretrained segmentation network in [google drive](https://drive.google.com/drive/u/0/folders/1BCu8bCGKG9HmnLFbyx7DIHI0slgkeo4h) and save it into the `./seg` folder.
 and you can run SNI-SLAM:
 ```bash
