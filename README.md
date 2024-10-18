@@ -50,7 +50,7 @@ For visualizing the results, we recommend to set `mesh_freq: 40` in [configs/SNI
 After SNI-SLAM is trained, run the following command for visualization.
 
 ```bash
-python visualizer.py configs/Replica/room1.yaml --output output/Replica/room1 --top_view --save_rendering
+python visualizer.py configs/Replica/room1.yaml --top_view --save_rendering
 ```
 The result of the visualization will be saved at `output/Replica/room1/vis.mp4`. The green trajectory indicates the ground truth trajectory, and the red one is the trajectory of SNI-SLAM.
 
