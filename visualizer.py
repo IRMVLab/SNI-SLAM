@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
                 ## Visualize the trajectory ##
                 for i in tqdm(range(0, N+1)):
-                    meshfile = f'{output}/mesh/{i:05d}_mesh_culled.ply'
+                    meshfile = f'{output}/mesh/{i:05d}_mesh_sem.ply'
                     if os.path.isfile(meshfile):
                         frontend.update_mesh(meshfile)
                     frontend.update_pose(1, estimate_c2w_list[i], gt=False)
