@@ -27,7 +27,7 @@ conda activate sni
 ## Run
 ### Replica
 1. Download the data with semantic annotations in [google drive](https://drive.google.com/drive/u/0/folders/1BCu8bCGKG9HmnLFbyx7DIHI0slgkeo4h) and save the data into the `./data/replica` folder. We only provide a subset of Replica dataset. For all Replica data generation, please refer to directory `data_generation`. 
-2. Download the pretrained segmentation network in [google drive](https://drive.google.com/drive/u/0/folders/1BCu8bCGKG9HmnLFbyx7DIHI0slgkeo4h) and save it into the `./seg` folder.
+2. Download the pretrained segmentation network in [google drive](https://drive.google.com/drive/u/0/folders/1BCu8bCGKG9HmnLFbyx7DIHI0slgkeo4h) and save it into the `./seg` folder (unzip `seg/facebookresearch_dinov2_main.zip`),
 and you can run SNI-SLAM:
 ```bash
 python -W ignore run.py configs/Replica/room1.yaml
@@ -43,6 +43,8 @@ To evaluate the average trajectory error. Run the command below with the corresp
 # An example for room1 of Replica
 python src/tools/eval_ate.py configs/Replica/room1.yaml
 ```
+### Reconstruction Metrics
+We follow [code](https://github.com/JingwenWang95/neural_slam_eval) for reconstruction evaluation.
 
 ## Visualizing SNI-SLAM Results
 For visualizing the results, we recommend to set `mesh_freq: 40` in [configs/SNI-SLAM.yaml](configs/SNI-SLAM.yaml) and run SNI-SLAM from scratch.
