@@ -3,6 +3,9 @@ Siting Zhu*, Guangming Wang*, Hermann Blum, Jiuming Liu, Liang Song, Marc Pollef
 <div align="center">
   <h3>CVPR 2024 [<a href="https://arxiv.org/pdf/2311.11016.pdf">Paper</a>] [<a href="https://drive.google.com/file/d/1oRKoly8cxple0Z3CcgbBvC_8wYQhOtR3/view?usp=drive_link">Suppl</a>]</h3>
 </div>
+<div align="center">
+  <h3>T-PAMI 2025 [<a href="https://ieeexplore.ieee.org/document/11260914">Paper</a>] [<a href="https://irmvlab.github.io/sni-slam-plus.github.io/">Project Page</a>]</h3>
+</div>
 
 ## Demo
 
@@ -79,6 +82,6 @@ If you find our code or paper useful, please consider citing:
   year={2026},
   volume={48},
   number={3},
-  pages={3399-3416}}
+  pages={3399-3416}
 }
 ```
