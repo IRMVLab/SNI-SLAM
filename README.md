@@ -72,4 +72,13 @@ If you find our code or paper useful, please consider citing:
   pages={21167--21177},
   year={2024}
 }
+@ARTICLE{zhu2025sni,
+  author={Zhu, Siting and Wang, Guangming and Blum, Hermann and Wang, Zhong and Zhang, Ganlin and Cremers, Daniel and Pollefeys, Marc and Wang, Hesheng},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={SNI-SLAM++: Tightly-Coupled Semantic Neural Implicit SLAM}, 
+  year={2026},
+  volume={48},
+  number={3},
+  pages={3399-3416}}
+}
 ```
